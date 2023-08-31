@@ -1,0 +1,327 @@
+*** Everything in python is object ***
+*** Every object contains methods ***
+
+
+
+number
+--------
+number can be integer or decimal or octal or hexa.
+
+
+string
+-----------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """unix shell scripting"""
+
+
+
+list ( array in C )
+--------
+list contains group of elements.
+elements can be numbers or strings or any combination.
+list elements are defined in [].
+
+alist = [10,20,30,40]
+blist =["unix","linux"45.43,345,0]
+
+
+
+tuple ( immutable , uneditable , unchangeable )
+---------------------------------------
+tuple contains group of elements.
+elements can be numbers or strings or any combination.
+tuple elements are defined in ().
+*** Elements within the tuple cannot be modified DIRECTLY ***
+
+atup  = (34,34,23,56,4)
+btup = (12,34,5,98,34,"unix","java")
+
+
+dictionary   ( json , hashmap  hash )
+------------
+dictionary contains elements in the form of keys and values.
+In dictionary keys are always unique
+key can be either number or string used to identify the value.
+value can be number or string or list or tuple or dictionary or set or any other complex data structure.
+# dictionary of dictionaries   
+# dictoinary of lists
+# dictionary of dictionary of dictionaries
+
+
+
+syntax:  object = { key:value , key:value , key:value }
+example:   book = {"chap1":10 ,"chap2":20 ,'chap3':30}
+           data = {1:2,3:4,5:6}
+
+
+
+set
+----
+set is unordered collection of unique items of the same type.
+
+aset = {10,20,20,20,20,30,30}
+
+
+
+
+
+
+
+
+conditional statements
+--------------------
+if
+if-else
+if-elif-elif-elif-elif..else
+
+
+
+operators
+-----------
+
+arithmetic operators :   + - * % /
+
+relational operators :  < <= > >= != ==
+
+assignment operators( ++ and -- are not allowed in python )
+
+val = 10
+val = val + 1   (or)  val+=1
+val = val - 1   (or)  val-=1
+
+logical operators: 
+and
+or
+not
+
+special operators;
+--------------------
++ 
+*
+in
+as
+
+
+methods  -  every object has methods
+
+functions:
+----------
+print()
+len()
+range()
+min()
+max()
+type()
+isinstance()
+input()
+round()
+
+int()
+str()
+list()
+tuple()
+dict()
+set()
+
+How to display all the list of functions and exceptions?
+---------------------------------------
+dir(__builtin__)
+
+
+
+file handling
+-----------------
+
+
+working with flat files ( csv log conf txt tsv prop dat ... )
+----------------------------------------------------
+r - read mode
+w - write mode
+a - append mode
+
+opening the file
+----------------
+syntax :  object = open(filename,mode)
+example:    fobj = open("abc.txt","r")
+
+
+closing the file
+----------------
+fobj.close()
+
+
+read operation
+-------------------
+method1 : reading the file line by line
+method2 : read the file using fobj.readlines()
+method3 : read the file using fobj.read()
+method4 : using csv library
+method5 : using pandas library
+
+
+
+functions
+---------------
+- buildin functions
+- user defined functions
+
+
+function | definition | block | subroutine | submodule
+-------------------------------------------------------
+
+- code reusability
+- define the block once and call it for multiple times
+
+
+ways of passing arguments
+---------------------------
+- fixed arguments
+- default arguments
+- keyword arguments
+- variable length arguments
+
+display all existing databases
+-----------------------------------
+show databases;
+
+creating database
+-----------------
+create database landmark;
+
+access your database
+----------------------
+use landmark;
+
+create table
+---------------
+create table adultinfo ( workclass varchar(100) , occupation varchar(100) , education varchar(100) );
+
+inserting records
+------------------
+insert into adultinfo values('public','business','btech');
+insert into adultinfo values('private','self','mtech');
+
+display all the records
+-------------------------
+select * from adultinfo ;
+
+
+
+
+step1: connect to db
+step2: define query
+step3: execute query
+step4: display output
+step5: close the  connection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+working with third party files ( pdf xlsx pptx  mp4 docx .... )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
